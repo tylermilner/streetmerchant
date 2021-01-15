@@ -221,6 +221,10 @@ export const MicroCenter: Store = {
 			container: '#cart-options',
 			text: ['in stock']
 		},
+		outOfStock: {
+			container: '#inventoryCnt',
+			text: ['sold out']
+		},
 		maxPrice: {
 			container: 'span[id="pricing"]',
 			euroFormat: false
